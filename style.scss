@@ -1,0 +1,324 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    background-color: #090401;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2e1709;
+    border-radius: 5px;
+}
+
+//Page Home
+
+.body_home{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    background-attachment: fixed;
+}
+
+.container_text_home{
+    margin-top: 200px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_content_text{
+    max-inline-size: 700px;
+    max-block-size: 700px;
+    overflow-wrap: break-word;
+    margin-left: 180px;
+    display: inline-block;
+    margin-top: 200px;
+    
+}
+
+.section_content_home{
+    width: auto;
+    height: 110vh;
+    margin-top: 330px;
+    background-image: url(images/layered-waves-haikei\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #111111;
+}
+
+.header_home{
+    div{
+        ul{
+            li{
+                transition-property: transform;
+                transition-duration: 0.3s;
+                transition-timing-function: ease;
+                transition-delay: 0s;
+            }
+            li:hover{
+                transform: translateY(-5px);
+                .nav_link_home{
+                    border-color: #ffffffbb;
+                    color: #ffffffbb;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 670px){
+    .nav_link_home{
+        padding: 20px;
+        padding-inline: 30px;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #FFFFFF;
+        border-width: 2px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 906px){
+    .section_content_text{
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .container_text_home{
+        margin-left: 30px;
+    }
+    .section_content_home{
+        margin-top: 280px;
+    }
+    .section_content_text{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .section_content_home{
+        height: 140vh;
+    }
+}
+
+//Page Vida e Obra
+
+.section_content_veo{
+    h1{
+        margin-left: 25%;
+    }
+}
+
+.container_text_veo{
+    max-inline-size: 750px;
+    margin-left: 25%;
+}
+
+.img_guimaraes{
+    img{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #b5752d;
+    }
+    img, p{
+        margin-left: 41%;
+    }
+}
+
+.header_veo{
+    height:100px;
+    div{
+        ul{
+            li{
+                transition-property: transform;
+                transition-duration: 0.3s;
+                transition-timing-function: ease;
+                transition-delay: 0s;
+            }
+            li:hover{
+                transform: translateY(-5px);
+                .nav_link_veo{
+                    border-color: #b5752d;
+                    color: #b5752d;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 670px){
+    .nav_link_veo{
+        padding: 20px;
+        padding-inline: 30px;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: #111111;
+        border-width: 2px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .img_guimaraes{
+        img, p{
+            margin-left: 31%;
+        }
+    }
+    .container_text_veo{
+        margin-left: 15%;
+    }
+    .section_content_veo{
+        h1{
+            margin-left: 15%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .img_guimaraes{
+        img, p{
+            margin-left: 26%;
+        }
+    }
+    .container_text_veo{
+        margin-left: 5%;
+    }
+    .section_content_veo{
+        h1{
+            margin-left: 5%;
+        }
+    }
+
+}
+
+//Page Resumo
+
+.section_content_resumo{
+    h1{
+        margin-left: 25%;
+    }
+}
+
+.container_text_resumo{
+    max-inline-size: 750px;
+    margin-left: 25%;
+}
+
+.img_livro{
+    img{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #b5752d;
+        position: relative;
+        left: 43%;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .img_livro{
+        img{
+            left: 40%;
+        }
+    }
+    .container_text_resumo{
+        margin-left: 15%;
+    }
+    .section_content_resumo{
+        h1{
+            margin-left: 15%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .img_livro{
+        img{
+            left: 33%;
+        }
+    }
+    .container_text_resumo{
+        margin-left: 5%;
+    }
+    .section_content_resumo{
+        h1{
+            margin-left: 5%;
+        }
+    }
+}
+
+//Page A seca
+
+.section_content_seca{
+    h1{
+        margin-left: 25%;
+    }
+}
+
+.container_text_seca{
+    max-inline-size: 750px;
+    margin-left: 25%;
+}
+
+.img_seca{
+    img{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #b5752d;
+        position: relative;
+        left: 28%;
+        width: 45%;
+    }
+}
+
+.img_grafico{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #b5752d;
+    position: relative;
+    left: 11%;
+    width: 75%;
+}
+
+@media screen and (min-width: 1296px){
+    .img_seca{
+        img{
+            width: 35%;
+        }
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .container_text_seca{
+        margin-left: 15%;
+    }
+    .section_content_seca{
+        h1{
+            margin-left: 15%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container_text_seca{
+        margin-left: 5%;
+    }
+    .section_content_seca{
+        h1{
+            margin-left: 5%;
+        }
+    }
+}
+
+
+
