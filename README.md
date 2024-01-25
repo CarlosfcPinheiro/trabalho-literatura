@@ -6,4 +6,4 @@ Tecnologias utilizadas:
 - HTML & CSS
 - Tailwind
 
-*site https://carlosfcpinheiro.github.io/trabalho-literatura*
+*https://carlosfcpinheiro.github.io/trabalho-literatura*
