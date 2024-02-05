@@ -4,6 +4,6 @@ O site busca contextualizar a história do escritor **João Guimarães Rosa** e 
 
 Tecnologias utilizadas:
 - HTML5 & CSS3
-- Tailwind
+- Tailwind CSS
 
 *https://carlosfcpinheiro.github.io/trabalho-literatura*
