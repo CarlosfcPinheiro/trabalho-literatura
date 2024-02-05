@@ -3,7 +3,7 @@ Um trabalho que buscou unir algumas ferramentas do desenvolvimento web com a lit
 O site busca contextualizar a história do escritor **João Guimarães Rosa** e a sua principal obra de destaque **"Grande Sertão: Veredas"**.
 
 Tecnologias utilizadas:
-- HTML & CSS
+- HTML5 & CSS3
 - Tailwind
 
 *https://carlosfcpinheiro.github.io/trabalho-literatura*
